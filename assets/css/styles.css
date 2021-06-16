@@ -1,4 +1,4 @@
-/* 1:38:00 URL -> https://www.youtube.com/watch?v=27JtRAI3QO8&ab_channel=BedimcodeBedimcode*/
+/* 1:41:38 URL -> https://www.youtube.com/watch?v=27JtRAI3QO8&ab_channel=BedimcodeBedimcode*/
 
 /*==================== GOOGLE FONTS ====================*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
@@ -337,6 +337,15 @@ img {
     font-size: 1.25rem;
     margin-left: var(--mb-0-5);
     transition: .3s;
+}
+
+.button--white{
+    background-color: #FFF;
+    color: var(--first-color);
+}
+
+.button--white:hover{
+    background-color: #FFF;
 }
 
 .button--flex{
@@ -752,7 +761,33 @@ img {
     outline: none;
 }
 /*==================== PROJECT IN MIND ====================*/
+.project{
+    text-align: center;
+}
 
+.project__bg{
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
+
+.project__title{
+    font-size: var(--h2-font-size);
+    margin-bottom: var(--mb-0-75);
+}
+
+.project__description{
+    margin-bottom: var(--mb-1-5);
+}
+
+.project__title,
+.project__description{
+    color: white;
+}
+
+.project__img{
+    width: 232px;
+    justify-self: center;
+}
 
 /*==================== TESTIMONIAL ====================*/
 
